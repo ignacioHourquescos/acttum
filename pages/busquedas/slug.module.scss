@@ -1,0 +1,87 @@
+@import "../../styles/constants.scss";
+
+
+.container{
+   width:100vw;
+   margin:0;
+   padding:0;
+   background-color: $grey;
+ 
+   
+}
+
+.job_description{
+   background-color: $grey ;
+   height:100%;
+   margin:0;
+   padding:5%;
+   padding-bottom:30%;
+
+   .job_title{
+      color:white;
+      font-size: $montserrat;
+      font-size:1.3rem;
+      font-weight:700;
+      margin-bottom:0.5rem;
+   }
+   .job_company, .job_what_you_do, .job_what_you_need{
+      color:white;
+      font-size: $montserrat;
+      font-size:1rem;
+      font-weight:300;
+      margin-bottom:0.5rem;
+   }
+   .detail{
+      color:rgb(196, 196, 196);
+      font-size: $montserrat;
+      font-size:0.8rem;
+      font-weight:300;
+      margin-bottom:0.5rem;
+   }
+
+
+}
+
+
+//Apply to job fixed button
+.job_apply_button_container{
+   position:fixed;
+      bottom:0;
+      width:100%;
+      background-color: rgba(91, 87, 87, 0.211);
+     backdrop-filter: blur(2px);
+   .job_apply_button{
+  
+      border:1px solid white;
+      color:white;
+      width:90%;
+      padding:1rem;
+      text-align:center;
+      border-radius: 40px;
+      margin:5%;
+      background-color: rgba(91, 87, 87, 0.211);
+     backdrop-filter: blur(8px);
+}
+
+}
+
+
+.back_to_home{
+   position:fixed;
+   top:1rem;
+   left:1rem;
+   height:50px;
+   display:flex;
+   flex-direction: row;
+   z-index:103;
+
+   .minilogo_names{
+      // font-family: $mainFont;
+      font-size:0.5rem;
+      margin-left:0.5rem;
+      span{
+         font-weight: bold;
+      }
+   }
+}
+

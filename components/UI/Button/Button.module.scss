@@ -1,0 +1,26 @@
+
+@import "../../../styles/constants.scss";
+
+
+.container{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 15px 18px;
+   border: 3px solid #474BBF;
+   box-sizing: border-box;
+   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+   border-radius: 400px;
+   width:60vw;
+   font-size:1.3rem;
+   margin:1rem;
+
+   color:white;
+
+   @media #{$desktop} {
+      font-size:1.5rem;
+      width:20vw;
+   }
+
+}

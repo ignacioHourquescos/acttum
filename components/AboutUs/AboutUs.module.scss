@@ -1,0 +1,22 @@
+@import "../../styles/constants.scss";
+
+
+.container{
+   background-image: linear-gradient(to right top, #20cead, #00c4c6, #00b6db, #00a7e6, #0094e5, #1b88e0, #317bda, #436dd2, #4365ce, #435dc9, #4554c4, #474bbf);
+   height:100vh;
+   
+   .service{
+      font-family: $montserrat;
+      margin:0 2rem;
+      margin-top:10%;
+      text-align:center;
+      @media #{$desktop}{
+            margin:0 20%;
+            font-size:1.5rem;
+            width:55%;
+            margin:0 22.5%;
+
+   
+      }
+   }
+}

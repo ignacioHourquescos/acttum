@@ -1,0 +1,68 @@
+
+@import "../../../styles/constants.scss";
+
+
+.container{
+   width:90%;
+   border-radius:10px;
+   margin:0 5% ;
+   margin-bottom:5%;
+   padding:1rem 5%   ;
+   position:relative;
+   color:white;
+   box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+   @media #{$desktop}{
+      margin:2% 22.5%;
+      padding:2%;
+      width:55%;
+   }
+   
+   // .remote{
+   //    position:absolute;
+   //    right:0;
+   //    font-weight:400;
+   //    top:0;
+   //    font-size:0.9rem;
+   //    padding-right:5%;
+   //    padding-top:5%;
+   // }
+
+   .date{
+      font-size: 0.7rem;
+   }
+
+   .location{
+      font-size: 1rem;
+      font-weight: lighter;
+      font-weight: 300;
+      margin-bottom:1rem;
+   }
+
+   .title{
+      font-size: 1.4rem;
+      font-weight: 700;
+      @media #{$desktop}{
+         font-size: 2rem;
+      }
+     
+   }
+
+   .detail_container{
+      display:flex;
+      flex-direction: row;
+      justify-content: flex-start;
+
+      .fullTime, .remote{
+         font-size: 1rem;
+         border:1px solid white;
+         border-radius: 20px;
+         padding:0 0.5rem;
+         margin-right:0.5rem;
+      }
+
+
+   }
+
+
+}
+

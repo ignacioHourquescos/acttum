@@ -1,0 +1,20 @@
+@import "../../styles/constants.scss";
+
+
+.container{
+   background-color:#20CEAD;
+   height:100vh;
+   
+   .service{
+      font-family: $montserrat;
+      margin:0 2rem;
+      margin-top:10%;
+      text-align:center;
+      @media #{$desktop}{
+            margin:0 20%;
+            font-size:1.5rem;
+
+   
+      }
+   }
+}

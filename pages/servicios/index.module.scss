@@ -1,0 +1,15 @@
+@import "../../styles/constants.scss";
+
+.container{
+   background-image:none;
+   width:100%;
+   z-index:1;
+   display:flex;
+   justify-content: center;
+   flex-direction: column;
+   color:white;
+   height:100vh;
+
+}
+
+

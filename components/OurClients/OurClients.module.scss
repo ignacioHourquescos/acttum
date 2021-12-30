@@ -1,0 +1,61 @@
+@import "../../styles/constants.scss";
+
+
+.container{
+ 
+}
+
+@import "../../styles/constants.scss";
+
+.Carrousel {
+	color: yellow;
+}
+
+.container {
+
+
+   padding:0;
+
+   background-color:  rgba(79, 81, 80, 1);
+
+   height:100vh;
+   display:flex;
+   flex-direction:column;
+   align-content: center;
+   z-index:102;
+   justify-content: space-around;
+   position:relative;
+
+   .contentStyle{
+
+      @media #{$desktop}{
+         width:55%;
+
+      }
+
+   }
+	.referencia {
+
+		font-family: $roboto;
+      font-size: 1rem;
+      font-weight: 300;
+      text-align: center;
+      z-index:102;
+      padding:1rem;
+      font-style:italic;
+      @media #{$desktop}{
+         
+         font-size: 1.2rem;
+         width:50%;
+         margin: 0 auto;
+      }
+      @media (min-width: 1650px){         
+         font-size: 1.4rem;
+      }
+	}
+
+	.contentStyle {
+		height: 50vh;
+		color: #fdffff;
+	}
+}
